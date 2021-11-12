@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pure CSS Responsive Image slider</title>
+<style type="text/css">
+
+#slider {
+	overflow:scroll;
+}
+#slider figure {
+	position:fixed;
+	width:inherit;
+	margin: 0;
+	left: 0;
+
+		}
+	
+#slider figure img {
+	width: 20%;
+	float:inherit;
+}
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: 100%;
+	}
+	45% {
+		left: 100%;
+	}
+	50% {
+		left: 200%;
+	}
+	70% {
+		left: 200%;
+	}
+	75% {
+		left: 300%;
+	}
+	95% {
+		left: 300%;
+	}
+	100% {
+		left: 400%;
+	}
+}
+
+</style>
+</head>
+<body>
+
+	<div id="scroll" align="center">
+		<figure>
+			<img src="img/desk.png">
+			<img src="img/desk2.gif">
+			<img src="img/desk5.png">
+			<img src="img/desk3.gif">
+			<img src="img/desk4.gif">
+			<img src="img/desk6.png">
+			<img src="img/desk7.png">
+			<img src="img/desk8.gif">
+			<img src="img/desk9.png">
+			<img src="img/desk10.gif">
+			<img src="img/desk11.png">
+			<img src="img/desk12.gif">
+			<img src="img/desk13.png">
+			<img src="img/desk14.gif">
+		</figure>
+	</div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+<!-- Begin Social Share -->
+<style>
+	.btn:hover {
+		color: white;
+		opacity: .8;
+		transform: scale(1.02);
+	}
+</style>
+<!-- Button trigger modal -->
+<!-- Modal -->
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>
+	$(this).delay(5000).queue(function() { /*-- CHANGE DELAY TIME --*/
+		$("#socialModal").modal('show');
+	});
+</script>
